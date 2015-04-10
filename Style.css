@@ -1,0 +1,1388 @@
+body
+{
+    background-image:url('imagens/background.png');
+
+}
+
+#header {
+
+    padding-left: 20px;
+    height: 70px;
+    width: border-box;
+    background: darkred;
+    font-family: Harabara;
+    font-size: 65px;
+    color: #ffffff;
+}
+
+#rodape_index{
+    margin-top: 18%;
+}
+
+#rodape{
+    position: absolute;
+    bottom: 1%;
+    right:34.5%;
+    left: auto;
+}
+
+#sair_icon{
+    position: absolute; right: 1.5%; top: 2%;
+    height:30px; 
+    width:30px;
+}
+
+#voltar{
+
+    position: absolute; left: 1%; top: 14%;
+    height:40px; 
+    width:40px;    
+
+}
+
+#voltar_feed{
+
+    position: absolute; left: 1%; top: 5%;
+    height:40px; 
+    width:40px;    
+
+}
+
+
+/* INDEX.PHP */
+
+#index_paragrafo{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 602px;
+    height: 144px;
+
+
+}
+
+#index_moedas_imagem {
+    position: absolute; right: 3%; top: 8%;
+}
+
+#index_botao_login {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:#ededed;
+    -webkit-border-top-left-radius:100px;
+    -moz-border-radius-topleft:100px;
+    border-top-left-radius:100px;
+    -webkit-border-top-right-radius:100px;
+    -moz-border-radius-topright:100px;
+    border-top-right-radius:100px;
+    -webkit-border-bottom-right-radius:100px;
+    -moz-border-radius-bottomright:100px;
+    border-bottom-right-radius:100px;
+    -webkit-border-bottom-left-radius:100px;
+    -moz-border-radius-bottomleft:100px;
+    border-bottom-left-radius:100px;
+    text-indent:0;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#777777;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:40px;
+    line-height:40px;
+    width:500px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #ffffff;
+    display: block; margin-left: auto; margin-right: auto; margin-top: 5%;
+
+}
+
+index_botao_login:hover {
+    background-color:#dfdfdf; }
+
+index_botao_login:active {
+    position:relative;
+    top:1px;
+}
+
+#index_botao_registar{
+
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:#ededed;
+    -webkit-border-top-left-radius:100px;
+    -moz-border-radius-topleft:100px;
+    border-top-left-radius:100px;
+    -webkit-border-top-right-radius:100px;
+    -moz-border-radius-topright:100px;
+    border-top-right-radius:100px;
+    -webkit-border-bottom-right-radius:100px;
+    -moz-border-radius-bottomright:100px;
+    border-bottom-right-radius:100px;
+    -webkit-border-bottom-left-radius:100px;
+    -moz-border-radius-bottomleft:100px;
+    border-bottom-left-radius:100px;
+    text-indent:0;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#777777;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:40px;
+    line-height:40px;
+    width:500px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #ffffff;
+    display: block; margin-left: auto; margin-right: auto; margin-top: 2%;
+
+}
+index_botao_registar:hover {
+    background-color:#dfdfdf; }
+
+index_botao_registar:active {
+    position:relative;
+    top:1px;         
+}
+
+#index_botao_estatisticas{
+
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:#ededed;
+    -webkit-border-top-left-radius:100px;
+    -moz-border-radius-topleft:100px;
+    border-top-left-radius:100px;
+    -webkit-border-top-right-radius:100px;
+    -moz-border-radius-topright:100px;
+    border-top-right-radius:100px;
+    -webkit-border-bottom-right-radius:100px;
+    -moz-border-radius-bottomright:100px;
+    border-bottom-right-radius:100px;
+    -webkit-border-bottom-left-radius:100px;
+    -moz-border-radius-bottomleft:100px;
+    border-bottom-left-radius:100px;
+    text-indent:0;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#777777;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:40px;
+    line-height:40px;
+    width:500px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #ffffff;
+    display: block; margin-left: auto; margin-right: auto; margin-top: 2%;
+}
+index_botao_estatisticas:hover {
+    background-color:#dfdfdf; }
+
+index_botao_estatisticas:active {
+    position:relative;
+    top:1px;         
+}
+
+/* INDEX.PHP */
+
+
+/* Login (login.php) */
+
+#login_top{
+
+    font-family: Yaahowu;
+    font-size: 70px;
+    color: #777777;
+    border-style:solid;
+    border-width:1px;   
+}
+
+#login_section{
+    position: absolute; left: 44.5%; top: 240px;
+}
+
+
+/* Login (login.php) */
+
+/* PP-Admin (admin_home.php) */
+
+#admin_top{
+
+    font-family: Yaahowu;
+    font-size: 70px;
+    color: #777777;
+    border-style:solid;
+    border-width:1px;   
+}
+
+#admin_session{
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    position: absolute; right: 0%; top: 6.5%;
+    margin-right: 1.5%;
+
+}
+
+#admin_posicao_icon{
+
+    position: absolute; left: 19%; top: 30%;      
+
+
+}
+
+#admin_posicao_icon2{
+
+    position: absolute; left: 24.9%; top: 30%;      
+
+
+}
+
+
+#admin_icon_aceitar{
+
+    height: 150px;
+    width: 150px;
+}
+
+#admin_icon_procurar{
+
+    position: absolute; top: 2.5%;   
+    height: 150px;
+    width: 150px;
+    margin-left: 120%;
+}
+
+#admin_icon_listar{
+
+    position: absolute; top: 0%;   
+    height: 150px;
+    width: 150px;
+    margin-left: 240%;
+
+}
+
+#admin_icon_registar{
+
+    position: absolute; top: 2%;   
+    height: 150px;
+    width: 150px;
+    margin-left: 360%;
+
+}
+
+.admin_text_icons{
+    position: absolute; left: 26.4%; top: 50%;      
+    font-family: Arial;
+    font-size: 35px;
+    text-align: center;
+    color:  #777777;
+} 
+
+.admin_text_icons_procurar{
+    position: absolute; left: 24.2%; top: 50%;      
+    font-family: Arial;
+    font-size: 35px;
+    margin-left: 14%;
+    color:  #777777;
+} 
+
+.admin_text_icons_listar{
+    position: absolute; left: 24.4%; top: 50%;      
+    font-family: Arial;
+    font-size: 35px;
+    margin-left: 28%;
+    color:  #777777;
+} 
+
+.admin_text_icons_registar{
+    position: absolute; left: 21.3%; top: 50%;      
+    font-family: Arial;
+    font-size: 35px;
+    margin-left: 42%;
+    color:  #777777;
+}
+/* PP-Admin (admin_home.php) */
+
+/* Admin-Aceitar Utilizadores (admin_aceitar.php) */
+
+#admin_aceitar_top{
+
+    font-family: Yaahowu;
+    font-size: 70px;
+    color: #777777;
+    border-style:solid;
+    border-width:1px;   
+}
+
+#semlinha{
+
+    text-decoration:none;
+}
+
+.aceitar_consumidores {
+    position: absolute; right: 9%; top: 35%;  
+    margin:0px;padding:0px;
+    width:40%;
+    border:0px solid #000000;
+    font-size: 20px;
+    text-align: right;
+
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}.aceitar_consumidores table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;padding:0px;
+}.aceitar_consumidores tr:last-child td:last-child {
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.aceitar_consumidores table tr:first-child td:first-child {
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}
+.aceitar_consumidores table tr:first-child td:last-child {
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+}.aceitar_consumidores tr:last-child td:first-child{
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+}.aceitar_consumidores tr:hover td{
+
+}
+.aceitar_consumidores tr:nth-child(odd){ background-color:#cccccc; }
+.aceitar_consumidores tr:nth-child(even)    { background-color:#ffffff; }.aceitar_consumidores td{
+    vertical-align:middle;
+
+
+    border:1px solid #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:center;
+    padding:9px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
+}.aceitar_consumidores tr:last-child td{
+    border-width:0px 1px 0px 0px;
+}.aceitar_consumidores tr td:last-child{
+    border-width:0px 0px 1px 0px;
+}.aceitar_consumidores tr:last-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+.aceitar_consumidores tr:first-child td{
+    background:-o-linear-gradient(bottom, #777777 5%, #777777 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #777777), color-stop(1, #777777) );
+    background:-moz-linear-gradient( center top,#777777 5%, #777777 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#777777", endColorstr="#000000");	background: -o-linear-gradient(top,#777777,000000);
+
+    background-color:#777777;
+    border:0px solid #000000;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:18px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#ffffff;
+}
+.aceitar_consumidores tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #000000 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #777777), color-stop(1, #777777) );
+    background:-moz-linear-gradient( center top, #000000 5%, #000000 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000");	background: -o-linear-gradient(top,#000000,000000);
+
+    background-color:#000000;
+}
+.aceitar_consumidores tr:first-child td:first-child{
+    border-width:0px 0px 1px 0px;
+}
+.aceitar_consumidores tr:first-child td:last-child{
+    border-width:0px 0px 1px 1px;
+}
+
+
+
+
+
+
+
+.aceitar_comerciantes {
+    position: absolute; left: 9%; top: 35%;  
+    margin:0px;padding:0px;
+    width:40%;
+    border:0px solid #000000;
+    font-size: 20px;
+
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}.aceitar_comerciantes table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;padding:0px;
+}.aceitar_comerciantes tr:last-child td:last-child {
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.aceitar_comerciantes table tr:first-child td:first-child {
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}
+.aceitar_comerciantes table tr:first-child td:last-child {
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+}.aceitar_comerciantes tr:last-child td:first-child{
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+}.aceitar_comerciantes tr:hover td{
+
+}
+.aceitar_comerciantes tr:nth-child(odd){ background-color:#cccccc; }
+.aceitar_comerciantes tr:nth-child(even)    { background-color:#ffffff; }.aceitar_comerciantes td{
+    vertical-align:middle;
+
+
+    border:1px solid #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:center;
+    padding:9px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#777777;
+}.aceitar_comerciantes tr:last-child td{
+    border-width:0px 1px 0px 0px;
+}.aceitar_comerciantes tr td:last-child{
+    border-width:0px 0px 1px 0px;
+}.aceitar_comerciantes tr:last-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+.aceitar_comerciantes tr:first-child td{
+    background:-o-linear-gradient(bottom, #777777 5%, #777777 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #777777), color-stop(1, #777777) );
+    background:-moz-linear-gradient( center top, #777777 5%, #777777 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#777777", endColorstr="#777777");	background: -o-linear-gradient(top,#777777,000000);
+
+    background-color: #777777;
+    border:0px solid #000000;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:18px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#ffffff;
+}
+.aceitar_comerciantes tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #000000 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05,#777777), color-stop(1, #777777) );
+    background:-moz-linear-gradient( center top, #000000 5%, #000000 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000");	background: -o-linear-gradient(top,#000000,000000);
+
+    background-color:#777777;
+}
+.aceitar_comerciantes tr:first-child td:first-child{
+    border-width:0px 0px 1px 0px;
+}
+.aceitar_comerciantes tr:first-child td:last-child{
+    border-width:0px 0px 1px 1px;
+}
+
+#admin_aceitar_consumidor{
+    font-size: 30px;
+    position: absolute; right: 9%; top: 25%;  
+    font-family: Arial;
+    color: #777777;
+}
+
+#admin_aceitar_comerciante{
+    font-size: 30px;
+    position: absolute; left: 9%; top: 25%;  
+    font-family: Arial;
+    color: #777777;
+}
+
+/* Admin-Aceitar Utilizadores (admin_aceitar.php) */
+
+
+/* Admin-Procurar (admin_procurar.php) */
+
+#admin_procurar_uti_form{
+    position: absolute; left: 30%; top: 40%;
+    font-family: Arial;
+    color: #777777;
+    font-size: 35px;
+}
+
+#admin_procurar_setor_form{
+    position: absolute; right: 30%; top: 40%;
+    font-family: Arial;
+    color: #777777;
+    font-size: 35px;
+}
+
+/* Admin-Procurar (admin_procurar.php) */
+
+/* Admin-Procurar-Resultado (admin_procurar_uti_funcao.php) */
+
+
+#admin_result_nif1{
+    position: absolute; left: 48%; top: 30%;
+}
+
+#admin_result_nif2{
+    position: absolute; left: 38%; top: 30%;
+    line-height:165%;
+    text-align: right;
+    font-family: Arial;
+}
+
+#bloquear_botao{
+    position: absolute; left: 110%; top: 45%;
+    width: 100%;
+}
+
+#guardar_botao{
+    position: absolute; left: 110%; top: 55%;
+    width: 100%;
+}
+
+#apagar_botao{
+    position: absolute; left: 110%; top: 65%;
+    width: 100%;
+}
+
+#bloquear_botao_c{
+    position: absolute; left: 110%; top: 35%;
+    width: 100%;
+}
+
+#guardar_botao_c{
+    position: absolute; left: 110%; top: 50%;
+    width: 100%;
+}
+
+#apagar_botao_c{
+    position: absolute; left: 110%; top: 65%;
+    width: 100%;
+}
+
+
+.resultado_procura_nome {
+    position: absolute; right: 30%;; top: 35%;  
+    margin:0px;padding:0px;
+    width:40%;
+    border:1px solid #000000;
+
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}.resultado_procura_nome table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;padding:0px;
+}.resultado_procura_nome tr:last-child td:last-child {
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.resultado_procura_nome table tr:first-child td:first-child {
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}
+.resultado_procura_nome table tr:first-child td:last-child {
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+}.resultado_procura_nome tr:last-child td:first-child{
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+}.resultado_procura_nome tr:hover td{
+
+}
+.resultado_procura_nome tr:nth-child(odd){ background-color:#cccccc; }
+.resultado_procura_nome tr:nth-child(even)    { background-color:#ffffff; }.resultado_procura_nome td{
+    vertical-align:middle;
+
+
+    border:1px solid #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:center;
+    padding:9px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
+}.resultado_procura_nome tr:last-child td{
+    border-width:0px 1px 0px 0px;
+}.resultado_procura_nome tr td:last-child{
+    border-width:0px 0px 1px 0px;
+}.resultado_procura_nome tr:last-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+.resultado_procura_nome tr:first-child td{
+    background:-o-linear-gradient(bottom, #777777 5%, #777777 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #777777), color-stop(1, #777777) );
+    background:-moz-linear-gradient( center top,#777777 5%, #777777 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#777777", endColorstr="#000000");	background: -o-linear-gradient(top,#777777,000000);
+
+    background-color:#777777;
+    border:0px solid #000000;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:18px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#ffffff;
+}
+.resultado_procura_nome tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #000000 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #777777), color-stop(1, #777777) );
+    background:-moz-linear-gradient( center top, #000000 5%, #000000 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000");	background: -o-linear-gradient(top,#000000,000000);
+
+    background-color:#000000;
+}
+.resultado_procura_nome tr:first-child td:first-child{
+    border-width:0px 0px 1px 0px;
+}
+.resultado_procura_nome tr:first-child td:last-child{
+    border-width:0px 0px 1px 1px;
+}
+
+/* Admin-Procurar-Resultado (admin_procurar_uti_funcao.php) */
+
+/* Admin-Listar (admin_listar.php) */
+
+#admin_listar_beneficio{
+    font-size: 30px;
+    position: absolute; right: 9%; top: 25%;  
+    font-family: Arial;
+    color: #777777;
+}
+
+#admin_listar_beneficio_maximo{
+    font-size: 30px;
+    position: absolute; left: 9%; top: 25%;  
+    font-family: Arial;
+    color: #777777;
+}
+
+.admin_beneficio {
+    position: absolute; right: 9%; top: 35%;  
+    margin:0px;padding:0px;
+    width:40%;
+    border:0px solid #000000;
+    font-size: 20px;
+    text-align: right;
+
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}.admin_beneficio table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;padding:0px;
+}.admin_beneficio tr:last-child td:last-child {
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.admin_beneficio table tr:first-child td:first-child {
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}
+.admin_beneficio table tr:first-child td:last-child {
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+}.admin_beneficio tr:last-child td:first-child{
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+}.admin_beneficio tr:hover td{
+
+}
+.admin_beneficio tr:nth-child(odd){ background-color:#cccccc; }
+.admin_beneficio tr:nth-child(even)    { background-color:#ffffff; }.admin_beneficio td{
+    vertical-align:middle;
+
+
+    border:1px solid #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:center;
+    padding:9px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
+}.admin_beneficio tr:last-child td{
+    border-width:0px 1px 0px 0px;
+}.admin_beneficio tr td:last-child{
+    border-width:0px 0px 1px 0px;
+}.admin_beneficio tr:last-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+.admin_beneficio tr:first-child td{
+    background:-o-linear-gradient(bottom, #777777 5%, #777777 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #777777), color-stop(1, #777777) );
+    background:-moz-linear-gradient( center top,#777777 5%, #777777 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#777777", endColorstr="#000000");	background: -o-linear-gradient(top,#777777,000000);
+
+    background-color:#777777;
+    border:0px solid #000000;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:18px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#ffffff;
+}
+.admin_beneficio tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #000000 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #777777), color-stop(1, #777777) );
+    background:-moz-linear-gradient( center top, #000000 5%, #000000 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000");	background: -o-linear-gradient(top,#000000,000000);
+
+    background-color:#000000;
+}
+.admin_beneficio tr:first-child td:first-child{
+    border-width:0px 0px 1px 0px;
+}
+.admin_beneficio tr:first-child td:last-child{
+    border-width:0px 0px 1px 1px;
+}
+
+
+
+.admin_beneficio_maximo {
+    position: absolute; left: 9%; top: 35%;  
+    margin:0px;padding:0px;
+    width:40%;
+    border:0px solid #000000;
+    font-size: 20px;
+    text-align: right;
+
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}.admin_beneficio_maximo table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;padding:0px;
+}.admin_beneficio_maximo tr:last-child td:last-child {
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.admin_beneficio_maximo table tr:first-child td:first-child {
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}
+.admin_beneficio_maximo table tr:first-child td:last-child {
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+}.admin_beneficio_maximo tr:last-child td:first-child{
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+}.admin_beneficio_maximo tr:hover td{
+
+}
+.admin_beneficio_maximo tr:nth-child(odd){ background-color:#cccccc; }
+.admin_beneficio_maximo tr:nth-child(even)    { background-color:#ffffff; }.admin_beneficio_maximo td{
+    vertical-align:middle;
+
+
+    border:1px solid #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:center;
+    padding:9px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
+}.admin_beneficio_maximo tr:last-child td{
+    border-width:0px 1px 0px 0px;
+}.admin_beneficio_maximo tr td:last-child{
+    border-width:0px 0px 1px 0px;
+}.admin_beneficio_maximo tr:last-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+.admin_beneficio_maximo tr:first-child td{
+    background:-o-linear-gradient(bottom, #777777 5%, #777777 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #777777), color-stop(1, #777777) );
+    background:-moz-linear-gradient( center top,#777777 5%, #777777 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#777777", endColorstr="#000000");	background: -o-linear-gradient(top,#777777,000000);
+
+    background-color:#777777;
+    border:0px solid #000000;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:18px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#ffffff;
+}
+.admin_beneficio_maximo tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #000000 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #777777), color-stop(1, #777777) );
+    background:-moz-linear-gradient( center top, #000000 5%, #000000 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000");	background: -o-linear-gradient(top,#000000,000000);
+
+    background-color:#000000;
+}
+.admin_beneficio_maximo tr:first-child td:first-child{
+    border-width:0px 0px 1px 0px;
+}
+.admin_beneficio_maximo tr:first-child td:last-child{
+    border-width:0px 0px 1px 1px;
+}
+
+/* Admin-Listar (admin_listar.php) */
+
+#admin_result_setor{
+    position: absolute; left: 50%; top: 30%;
+}
+
+#admin_result_setor2{
+    position: absolute; left: 36%; top: 30%;
+    line-height:170%;
+    text-align: right;
+    font-family: Arial;
+}
+
+/* Admin-Listar (admin_listar.php) */
+
+/* Admin Registar (admin_registar.php) */
+
+#admin_registar_registar_fatura{
+
+
+    height: 150px;
+    width: 150px;
+}
+
+#admin_registar_registar_setor{
+
+    position: absolute; top: 1%;   
+    height: 150px;
+    width: 150px;
+    margin-left: 120%;
+}
+
+#admin_registar_registar_comerciante{
+
+    position: absolute; top: 3%;   
+    height: 150px;
+    width: 150px;
+    margin-left: 240%;
+
+}
+
+#admin_registar_registar_consumidor{
+
+    position: absolute; top: 2%;   
+    height: 150px;
+    width: 150px;
+    margin-left: 360%;
+
+}
+
+.admin_text_fatura{
+    position: absolute; left: 27.3%; top: 50%;      
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+    color:  #777777;
+} 
+
+.admin_text_icons_setor{
+    position: absolute; left: 26.3%; top: 50%;      
+    font-family: Arial;
+    font-size: 30px;
+    margin-left: 14%;
+    color:  #777777;
+} 
+
+.admin_text_icons_comerciante{
+    position: absolute; left: 21.5%; top: 50%;      
+    font-family: Arial;
+    font-size: 30px;
+    margin-left: 28%;
+    color:  #777777;
+} 
+
+.admin_text_icons_consumidor{
+    position: absolute; left: 20.4%; top: 50%;      
+    font-family: Arial;
+    font-size: 30px;
+    margin-left: 42%;
+    color:  #777777;
+}
+/* Admin Registar (admin_registar.php) */
+
+/* Admin Registar Comerciante (admin_registar_comerciante.php) */
+
+#admin_registar_comerciante_form{ 
+    position: absolute; left: 48%; top: 30%;
+}
+
+#admin_registar_comerciante_form2{
+    position: absolute; left: 38%; top: 30%;
+    line-height:165%;
+    text-align: right;
+    font-family: Arial;
+}
+/* Admin Registar Comerciante (admin_registar_comerciante.php) */
+
+/* Admin Registar Setor (admin_registar_setor.php) */
+
+#admin_registar_setor_form{ 
+    position: absolute; left: 50%; top: 30%;
+}
+
+#admin_registar_setor_form2{
+    position: absolute; left: 36%; top: 30%;
+    line-height:165%;
+    text-align: right;
+    font-family: Arial;
+}
+/* Admin Registar Setor (admin_registar_setor.php) */
+
+/* Admin Registar Fatura */
+
+#admin_registar_fatura_form{ 
+    position: absolute; left: 40%; top: 30%;
+    font-family: Arial;
+}
+
+#admin_registar_fatura_form2{
+    position: absolute; left:30%; top: 30%;
+    line-height:165%;
+    text-align: right;
+    font-family: Arial;
+}
+
+.admin_fatura {
+    position: relative; right: 40%;
+    margin:0px;padding:0px;
+    width:120%;
+    border:0px;
+    font-size: 15px;
+    text-align: center;
+
+
+}.admin_fatura table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;padding:0px;
+}.admin_fatura tr:last-child td:last-child {
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.admin_fatura table tr:first-child td:first-child {
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}
+.admin_fatura table tr:first-child td:last-child {
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+}.admin_fatura tr:last-child td:first-child{
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+}.admin_fatura tr:hover td{
+
+}
+.admin_fatura tr:nth-child(odd){ background-color:#cccccc; }
+.admin_fatura tr:nth-child(even)    { background-color:#ffffff; }.admin_fatura td{
+    vertical-align:middle;
+
+
+    border:0px solid #000000;
+    border-width:0px 0px 0px 0px;
+    text-align:center;
+    padding:9px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
+}.admin_fatura tr:last-child td{
+    border-width:0px 0px 0px 0px;
+}.admin_fatura tr td:last-child{
+    border-width:0px 0px 0px 0px;
+}.admin_fatura tr:last-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+.admin_fatura tr:first-child td{
+    background:-o-linear-gradient(bottom, #777777 5%, #777777 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #777777), color-stop(1, #777777) );
+    background:-moz-linear-gradient( center top,#777777 5%, #777777 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#777777", endColorstr="#000000");	background: -o-linear-gradient(top,#777777,000000);
+
+    background-color:#777777;
+    border:0px solid #000000;
+    text-align:center;
+    border-width:0px 0px 0px 0px;
+    font-size:18px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#ffffff;
+}
+.admin_fatura tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #000000 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #777777), color-stop(1, #777777) );
+    background:-moz-linear-gradient( center top, #000000 5%, #000000 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000");	background: -o-linear-gradient(top,#000000,000000);
+
+    background-color:#000000;
+}
+.admin_fatura tr:first-child td:first-child{
+    border-width:0px 0px 0px 0px;
+}
+.admin_fatura tr:first-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+
+/* Admin Registar Fatura */
+
+/* Comerciante Home */
+
+#com_posicao_icon{
+
+    position: absolute; left: 25%; top: 30%;      
+
+
+}
+
+#com_icon_aceitar{
+
+    height: 150px;
+    width: 150px;
+}
+
+#com_icon_procurar{
+
+    position: absolute; top: 2.5%;   
+    height: 150px;
+    width: 150px;
+    margin-left: 120%;
+}
+
+#com_icon_listar{
+
+    position: absolute; top: 4%;   
+    height: 150px;
+    width: 150px;
+    margin-left: 240%;
+
+}
+
+.com_text_icons{
+    position: absolute; left: 20%; top: 50%;      
+    font-family: Arial;
+    font-size: 35px;
+    text-align: center;
+    color:  #777777;
+} 
+
+.com_text_icons_procurar{
+    position: absolute; left: 20%; top: 50%;      
+    font-family: Arial;
+    font-size: 35px;
+    margin-left: 14%;
+    color:  #777777;
+} 
+
+.com_text_icons_listar{
+    position: absolute; left: 16.25%; top: 50%;      
+    font-family: Arial;
+    font-size: 35px;
+    margin-left: 28%;
+    color:  #777777;
+} 
+
+.com_text_icons_registar{
+    position: absolute; left: 15.5%; top: 50%;      
+    font-family: Arial;
+    font-size: 35px;
+    margin-left: 42%;
+    color:  #777777;
+}
+
+.com_text_icons_mapa{
+    position: absolute; left: 30%; top: 50%;      
+    font-family: Arial;
+    font-size: 35px;
+    margin-left: 42%;
+    color:  #777777;
+}
+
+#com_icon_registar{
+
+    position: absolute; top: 2%;   
+    height: 150px;
+    width: 150px;
+    margin-left: 360%;
+
+}
+
+#com_icon_mapa{
+
+    position: absolute; top: 2%;   
+    height: 150px;
+    width: 150px;
+    margin-left: 480%;
+
+}
+/* Comerciante Home */
+
+/* Comerciante Listar */
+
+
+.listar_faturas_comerciante {
+    position: relative; left:7.5%; bottom: 40%;  
+    margin:0px;padding:0px;
+    width:100%;
+    border:0px solid #000000;
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial;
+    color: #777777;
+
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}.listar_faturas_comerciante{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;padding:0px;
+}.listar_faturas_comerciante tr:last-child td:last-child {
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.listar_faturas_comerciante table tr:first-child td:first-child {
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}
+.listar_faturas_comerciante table tr:first-child td:last-child {
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+}.listar_faturas_comerciante tr:last-child td:first-child{
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+}.listar_faturas_comerciante tr:hover td{
+
+}
+.listar_faturas_comerciante tr:nth-child(odd){ background-color:#cccccc; }
+.listar_faturas_comerciante tr:nth-child(even)    { background-color:#ffffff; }.listar_faturas_comerciante td{
+    vertical-align:middle;
+
+
+    border:1px solid #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:center;
+    padding:9px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
+}.listar_faturas_comerciante tr:last-child td{
+    border-width:0px 1px 0px 0px;
+}.listar_faturas_comerciante tr td:last-child{
+    border-width:0px 0px 1px 0px;
+}.listar_faturas_comerciante tr:last-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+.listar_faturas_comerciante tr:first-child td{
+    background:-o-linear-gradient(bottom, #777777 5%, #777777 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #777777), color-stop(1, #777777) );
+    background:-moz-linear-gradient( center top,#777777 5%, #777777 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#777777", endColorstr="#000000");	background: -o-linear-gradient(top,#777777,000000);
+
+    background-color:#777777;
+    border:0px solid #000000;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:18px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#ffffff;
+}
+.listar_faturas_comerciante tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #000000 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #777777), color-stop(1, #777777) );
+    background:-moz-linear-gradient( center top, #000000 5%, #000000 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000");	background: -o-linear-gradient(top,#000000,000000);
+
+    background-color:#000000;
+}
+.listar_faturas_comerciante tr:first-child td:first-child{
+    border-width:0px 0px 1px 0px;
+}
+.listar_faturas_comerciante tr:first-child td:last-child{
+    border-width:0px 0px 1px 1px;
+}
+
+#comerciante_faturacao{
+    
+    font-family: Arial;
+    color: #777777;
+    
+    position:absolute; top:25%; left: 35%;
+    
+}
+/* Comerciante Listar */
+
+/* Comerciante Carregar */
+
+#registar_comerciante{
+
+
+    height: 150px;
+    width: 150px;
+}
+
+#registar_consumidor{
+
+    position: absolute; top: 1%;   
+    height: 150px;
+    width: 150px;
+    margin-left: 120%;
+}
+
+#registar_posicao_icon{
+
+    position: absolute; left: 38%; top: 30%;      
+
+
+}
+
+.registar_text_icons_comerciante{
+    position: absolute; left: 9.5%; top: 50%;      
+    font-family: Arial;
+    font-size: 30px;
+    margin-left: 28%;
+    color:  #777777;
+} 
+
+.registar_text_icons_consumidor{
+    position: absolute; left: 8.5%; top: 50%;      
+    font-family: Arial;
+    font-size: 30px;
+    margin-left: 42%;
+    color:  #777777;
+}
+
+#feed{
+
+    position: absolute; left: 6%; bottom: 10%;      
+    height: 70px;
+    width: 70px;
+}
